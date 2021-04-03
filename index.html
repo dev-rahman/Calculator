@@ -9,48 +9,42 @@
   </head>
   <body>
     <div class="container">
-      <h1>Calculator</h1>
-      <div class="first-row">
-        <input
-          class="result"
-          type="text"
-          name="result"
-          placeholder="result"
-          readonly
-        />
-        <input class="clear" type="button" value="C" />
+      <div class="row-0">
+        <input class="output" type="text" readonly />
       </div>
 
-      <div class="second-row">
-        <input id="one" type="button" value="1" />
-        <input id="two" type="button" value="2" />
-        <input id="three" type="button" value="3" />
-        <input type="button" value="+" />
+      <div class="row-1 grid-1x4">
+        <input class="clear-button" type="button" value="C" />
+        <input type="button" value="(" />
+        <input type="button" value=")" />
+        <input class="operation" type="button" value="/" />
       </div>
 
-      <div class="third-row">
-        <input id="four" type="button" value="4" />
-        <input id="five" type="button" value="5" />
-        <input id="six" type="button" value="6" />
-        <input type="button" value="-" />
+      <div class="row- grid-1x4">
+        <input type="button" value="7" />
+        <input type="button" value="8" />
+        <input type="button" value="9" />
+        <input class="operation" type="button" value="*" />
       </div>
 
-      <div class="fourth-row">
-        <input id="seven" type="button" value="7" />
-        <input id="eight" type="button" value="8" />
-        <input id="nine" type="button" value="9" />
-        <input type="button" value="*" />
+      <div class="row-3 grid-1x4">
+        <input type="button" value="4" />
+        <input type="button" value="5" />
+        <input type="button" value="6" />
+        <input class="operation" type="button" value="+" />
       </div>
 
-      <div class="fifth-row">
-        <input type="button" value="/" />
-        <input id="zero" type="button" value="0" />
+      <div class="row-4 grid-1x4">
+        <input type="button" value="1" />
+        <input type="button" value="2" />
+        <input type="button" value="3" />
+        <input class="operation" type="button" value="-" />
+      </div>
+
+      <div class="row-5 grid-1x4">
+        <input class="O-button" type="button" value="0" />
         <input type="button" value="." />
-        <input type="button" value="=" />
-      </div>
-
-      <div class="dark-mode-button">
-        <input id="dark-mode" type="button" value="" />
+        <input class="equal-button" type="button" value="=" />
       </div>
     </div>
   </body>
