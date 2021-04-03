@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 5px;
-  background-color: rgb(165, 165, 165);
+  background-color: rgb(46, 46, 46);
 }
 
 .container {
@@ -23,9 +23,9 @@ body {
   flex-direction: column;
   align-content: center;
   gap: 1rem;
-  background: #f7f8fa;
+  background: #17181a;
   border-radius: 20px;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 input {
@@ -36,13 +36,13 @@ input {
   outline: 0;
   border: 0;
   cursor: pointer;
-  background: #e5e9eb;
+  background: #232428;
   transition: 0.2s;
+  color: #fff;
 }
 
 input:hover {
-  opacity: 0.8;
-  /* background: #c0c5c7c0; */
+  opacity: 0.75;
 }
 
 .output {
@@ -58,22 +58,22 @@ input:hover {
   align-content: center;
 }
 
-.O-button {
+.span-button-2 {
   grid-column: 1 / span 2;
   width: 100%;
 }
 
 .clear-button {
-  background: #faeceb;
-  color: #dd99a2;
+  background: #31181e;
+  color: #965460;
 }
 
 .operation {
   background: #ff9600;
-  color: #fff;
 }
 
-.equal-button {
+.green-button {
   background: #2cc572;
-  color: #fff;
+  grid-column: 3 / span 2;
+  width: 100%;
 }
