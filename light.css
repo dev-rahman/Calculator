@@ -1,11 +1,12 @@
 * {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 html {
-  font-family: "Courier New", Courier, monospace;
   font-size: 62.5%;
 }
 
@@ -28,7 +29,8 @@ body {
   padding: 2rem;
 }
 
-input {
+input,
+button {
   font-size: 2rem;
   width: 5.2rem;
   height: 5.2rem;
@@ -37,10 +39,14 @@ input {
   border: 0;
   cursor: pointer;
   background: #e5e9eb;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 input:hover {
+  opacity: 0.75;
+}
+
+button:hover {
   opacity: 0.75;
 }
 

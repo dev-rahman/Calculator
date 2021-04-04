@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="dark.css" />
+    <link rel="stylesheet" href="light.css" id="theme" />
     <title>Calculator</title>
   </head>
   <body>
@@ -17,7 +17,6 @@
         <input class="clear-button span-button-2" type="button" value="C" />
         <input type="button" value="(" />
         <input type="button" value=")" />
-        <!-- <input class="operation" type="button" value="/" /> -->
       </div>
 
       <div class="row- grid-1x4">
@@ -48,9 +47,12 @@
       </div>
 
       <div class="row-6 grid-1x4">
-        <input class="span-button-2" type="button" value="Dark" />
+        <button class="span-button-2" id="dark-mode" onclick="switchTheme()">
+          Dark🌙
+        </button>
         <input class="green-button" type="button" value="=" />
       </div>
     </div>
+    <script src="app.js" async defer></script>
   </body>
 </html>
