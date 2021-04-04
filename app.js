@@ -8,6 +8,18 @@ function switchTheme() {
     darkMode.innerHTML = "Light🌙";
   } else {
     theme.href = "light.css";
-    darkMode.innerHTML = "Dark🌙";
+    darkMode.innerHTML = "Dark 🌙";
   }
 }
+
+// Clear the screen on Click of "C" button...
+function clearScreen() {
+  document.getElementById("result").value = "";
+}
+
+// Displays the entered value on screen.
+function liveScreen(value) {
+  document.getElementById("result").innerHTML = value;
+}
+
+function calculate(a, b, operand) {}
