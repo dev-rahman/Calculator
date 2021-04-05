@@ -55,6 +55,8 @@ button:hover {
   width: 99.5%;
   height: 7rem;
   cursor: text;
+  background: #232428;
+  border-radius: 15px;
 }
 
 .grid-1x4 {

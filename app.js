@@ -19,7 +19,7 @@ function clearScreen() {
 
 // Displays the entered value on screen.
 function liveScreen(value) {
-  document.getElementById("result").innerHTML = value;
+  document.getElementById("output").innerHTML = value;
 }
 
 function calculate(a, b, operand) {}
